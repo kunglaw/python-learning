@@ -3,6 +3,12 @@ myNumbers = [1, 2, 3, 4, 5, 6]
 for num in myNumbers:
     print(num)
 
+print("=============================")
+
+for num in myNumbers: 
+    if num % 2 == 0:
+        print(num)
+
 myItem = {
     "code1": 'GTX 1000',
     "code2": "AZROCK 500",
